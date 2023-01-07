@@ -86,11 +86,11 @@ import React from 'react'</br>
 const Navbar = () => {</br>
   return (</br>
     <></br>
-      <div>Navbar</div></br>
+      <d>Navbar</d></br>
       <u></br>
-        <l>Home</li></br>
-        <l>About</li></br>
-        <l>Blog</li></br>
+        <l>Home</l></br>
+        <l>About</l></br>
+        <l>Blog</l></br>
       </u></br>
     </></br>
   )</br>
@@ -102,4 +102,4 @@ With this lines of code, we have created our Navbar functional components and we
 I know it's getting quite busy here so that is why i will continue from where I stopped and write the part 2 of this article next week. so stay updated and don't forget to share it to your fellow programmers.</br>
 
 but before you go, follow this advice</br>
-
+Keep Learning
