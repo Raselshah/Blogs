@@ -61,6 +61,7 @@ import { createStore } from 'redux'
  * You can use any conditional logic you want in a reducer. In this example,
  * we use a switch statement, but it's not required.
  */
+ /*
 function counterReducer(state = { value: 0 }, action) {
   switch (action.type) {
     case 'counter/incremented':
@@ -71,6 +72,7 @@ function counterReducer(state = { value: 0 }, action) {
       return state
   }
 }
+*/
 
 // Create a Redux store holding the state of your app.
 // Its API is { subscribe, dispatch, getState }.
