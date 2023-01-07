@@ -31,15 +31,17 @@ At this point, you can ceate multiple react components , but how do you make use
 <img src='https://cdn.hashnode.com/res/hashnode/image/upload/v1655546944373/hc5JmteUH.gif?auto=format,compress&gif-q=60&format=webm' alt='github' width="100%" height='400'>
 it's important to note that when we are creating a new component, we will have to import react from react.. see the code below
 
+{
 import React from "react"
 
 const App = () => {
     return <h1>Hello world<h1/>
 }
+}
   
 But if we are to make use of this component in another component, we will have to use the export keyword see the full sample code below
-  
-COPY
+
+{
 import React from 'react'
 
 const Tutorial = () => {
@@ -47,6 +49,7 @@ const Tutorial = () => {
     <div>Tutorial</div>
   )
 }
+    }
 
 export default Tutorial
 
