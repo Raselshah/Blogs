@@ -19,4 +19,4 @@ After you have learnt how React components works, now is the time to make the de
 
 Don't worry i got your back !😎
 
-(https://i.ibb.co/MCZR9T4/1632233795481-2.jpg)
+<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Raselshah)
