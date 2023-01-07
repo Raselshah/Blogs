@@ -34,7 +34,7 @@ it's important to note that when we are creating a new component, we will have t
 import React from "react"
 
 const App = () => {
-    return <h1>Hello world</>
+    return <h1>Hello world<h1/>
 }
   
 But if we are to make use of this component in another component, we will have to use the export keyword see the full sample code below
