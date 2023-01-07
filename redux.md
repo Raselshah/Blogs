@@ -74,13 +74,13 @@ function counterReducer(state = { value: 0 }, action) {</br>
 }</br>
 */</br>
 
-Create a Redux store holding the state of your app.</br>
- Its API is { subscribe, dispatch, getState }.</br>
-let store = createStore(counterReducer)</br>
+//Create a Redux store holding the state of your app.</br>
+ //Its API is { subscribe, dispatch, getState }.</br>
+//let store = createStore(counterReducer)</br>
 
- You can use subscribe() to update the UI in response to state changes.</br>
- Normally you'd use a view binding library (e.g. React Redux) rather than subscribe() directly.</br>
- There may be additional use cases where it's helpful to subscribe as well.</br>
+ //You can use subscribe() to update the UI in response to state changes.</br>
+ //Normally you'd use a view binding library (e.g. React Redux) rather than subscribe() directly.</br>
+ //There may be additional use cases where it's helpful to subscribe as well.</br>
 
 store.subscribe(() => console.log(store.getState()))</br>
 
