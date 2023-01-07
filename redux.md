@@ -62,39 +62,39 @@ import { createStore } from 'redux'
  * we use a switch statement, but it's not required.
  */
  /*
-function counterReducer(state = { value: 0 }, action) {
-  switch (action.type) {
-    case 'counter/incremented':
-      return { value: state.value + 1 }
-    case 'counter/decremented':
-      return { value: state.value - 1 }
-    default:
-      return state
-  }
-}
-*/
+function counterReducer(state = { value: 0 }, action) {</br>
+  switch (action.type) {</br>
+    case 'counter/incremented':</br>
+      return { value: state.value + 1 }</br>
+    case 'counter/decremented':</br>
+      return { value: state.value - 1 }</br>
+    default:</br>
+      return state</br>
+  }</br>
+}</br>
+*/</br>
 
-// Create a Redux store holding the state of your app.
-// Its API is { subscribe, dispatch, getState }.
-let store = createStore(counterReducer)
+Create a Redux store holding the state of your app.</br>
+ Its API is { subscribe, dispatch, getState }.</br>
+let store = createStore(counterReducer)</br>
 
-// You can use subscribe() to update the UI in response to state changes.
-// Normally you'd use a view binding library (e.g. React Redux) rather than subscribe() directly.
-// There may be additional use cases where it's helpful to subscribe as well.
+ You can use subscribe() to update the UI in response to state changes.</br>
+ Normally you'd use a view binding library (e.g. React Redux) rather than subscribe() directly.</br>
+ There may be additional use cases where it's helpful to subscribe as well.</br>
 
-store.subscribe(() => console.log(store.getState()))
+store.subscribe(() => console.log(store.getState()))</br>
 
-// The only way to mutate the internal state is to dispatch an action.
-// The actions can be serialized, logged or stored and later replayed.
-store.dispatch({ type: 'counter/incremented' })
-// {value: 1}
-store.dispatch({ type: 'counter/incremented' })
-// {value: 2}
-store.dispatch({ type: 'counter/decremented' })
-// {value: 1}
+ The only way to mutate the internal state is to dispatch an action.</br>
+ The actions can be serialized, logged or stored and later replayed.</br>
+store.dispatch({ type: 'counter/incremented' })</br>
+{value: 1}</br>
+store.dispatch({ type: 'counter/incremented' })</br>
+// {value: 2}</br>
+store.dispatch({ type: 'counter/decremented' })</br>
+// {value: 1}</br>
 
-In order to dive deeper on how to use Redux in your React Application, visit the official website here to learn more about it. There is absolutely no doubt that these are the basic things you have to know before getting started with Redux.
+In order to dive deeper on how to use Redux in your React Application, visit the official website here to learn more about it. There is absolutely no doubt that these are the basic things you have to know before getting started with Redux.</br>
 
-In cnclusion, Redux is very very useful when working on a large Application. You can always use React context API to achieve similar task which means you don't always have to use Redux, but in many cases, you can. 💪
+In cnclusion, Redux is very very useful when working on a large Application. You can always use React context API to achieve similar task which means you don't always have to use Redux, but in many cases, you can. 💪</br>
 
 So with that being said, Have fun while learning 😎 stay motivated Keep coding see you soon !!!
