@@ -1,5 +1,5 @@
-#How to Master React JS in No Time (step by step guide part 1)</br>
-#Introduction</br>
+<h2>How to Master React JS in No Time (step by step guide part 1)</h2></br>
+<h2>Introduction</h2></br>
 There's no doubt that React JS is the most popular javascript libary out there and due to its popularity, a lot of aspiring developers are eager to learn how react really works and how to start using it to build their projects as well.</br>
 
 But before we start diving into the topic of the day, what exactly is React JS ? well, like i said, it is a javascipt libary that was created by Jordan Walke a software developer at facebook. It was created for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. read the full history here</br>
