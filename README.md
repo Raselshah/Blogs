@@ -46,7 +46,7 @@ import React from 'react'
 
 const Tutorial = () => {
   return (
-    <d>Tutorial</>
+    <>Tutorial</>
   )
 }
     }
@@ -102,8 +102,8 @@ const App = () => {
 
   return(
     <>
-        <h1>{count}</h1>
-         <button onClick={() => setCount + 1}>
+        <>{count}</>
+         <b onClick={() => setCount + 1}>
             count
           </button>
     </>
